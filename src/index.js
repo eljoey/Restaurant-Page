@@ -72,7 +72,7 @@ function aboutTab() {
     aboutContainer.appendChild(header);
 
     let imageOfStore = document.createElement('img');
-    imageOfStore.setAttribute('src', '../src/pizzapizza.jpeg');
+    imageOfStore.setAttribute('src', './pizzapizza.jpeg');
     imageOfStore.setAttribute('id', 'pizza');
     aboutContainer.appendChild(imageOfStore);
 
